@@ -1,11 +1,14 @@
-name = input ("ชื่อสินค้า : ")
-default_price  =(input ("ราคาสินค้า : "))
-#สูตร
-sell = (default_price)  + ((default_price)* 10/100)
+name_product = input ("ชื่อสินค้า : ")
+cost_price  = float(input ("ต้นทุน : "))
 
-default_price_v2 = format (float(sell),".2f")
-#ตัวแปล
+#ราคาต้นทุน + ราคาต้นทุนบวกเพิ่ม10%
+sell = (cost_price)  + ((cost_price)* 10/100)
 
-print (f"ราคาขายสินค้า {sell:.2f} บาท ")
-    #print(f"คุณ {emp_name} ยอดขาย {float(sale_price):.2f} บาท ได้ค่าคอม {comis:.2f} บาท")
+#เพิ่มทศนิยม 2 ตำแหน่ง
+sellv2 = format (float(sell),".2f")
 
+
+print (f"ราคาขายสินค้า {sellv2} บาท ")
+print ("ราคาขายสินค้า",sellv2,"บาท")
+print ("ราคาขายสินค้า "+str(sellv2)+" บาท")
+print ("ราคาขายสินค้า {} บาท ".format(sellv2))

@@ -1,11 +1,13 @@
 width = float (input ("ป้อนความกว้าง : "))
 long = float (input ("ป้อนความยาว : "))
-high = float (input ("ป้อนความสูง : "))
-print("______________________________________________________")
+height = float (input ("ป้อนความสูง : "))
 #ตัวแปล
-a = (width*long*2)
-b = (width*high*2)
-c = (long*high*2)
-#คำนวน
-print = round ("ต้องใช้สีทั้งหมด : "+str(a)+str(b)+str(c)/5+"ตารางเซนติเมตร")
-#กล่องสีเหลี่ยมที่มีความกว้าง N ยาว N สูง N ต้องใช้สีทั้งหมด N
+area = round((long * height * 2 )+(long * width * 2)+(long * long * 2) ) / 5 
+
+#คำนวน 
+print(f"กล่องสีเหลี่ยมให้มีความกว้าง{width} ยาว {long} สูง {height} ต้องใช้สีทั้งหมด {area} แกลอน ")
+print("กล่องสีเหลี่ยมให้มีความกว้าง",width,"ยาว", long, "สูง" ,height, "ต้องใช้สีทั้งหมด", area,"แกลอน" )
+print("กล่องสีเหลี่ยมให้มีความกว้าง"+str(width)+" ยาว"+str(long)+" สูง"+str(height)+" ต้องใช้สีทั้งหมด"+ str(area)+ "แกลอน")
+print("กล่องสีเหลี่ยมให้มีความกว้าง{} ยาว {} สูง {} ต้องใช้สีทั้งหมด {} แกลอน ".format(width,long,height,area))
+
+    
