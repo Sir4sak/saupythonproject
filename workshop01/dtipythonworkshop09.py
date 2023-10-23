@@ -1,7 +1,7 @@
 def InputInfo ():
-    Number = int(input("รหัสพนักงาน : "))
-    Name = str(input("ฃื่อพนักงาน : "))
-    AmountOfMoney = float(input("จำนวนเงิน : "))
+    Number = int(input("ป้อนรหัสพนักงาน : "))
+    Name = str(input("ป้อนฃื่อพนักงาน : "))
+    AmountOfMoney = float(input("ป้อนจำนวนเงิน : "))
     return Number,Name,AmountOfMoney
 
 def CalPercent (AmountOfMoney) :

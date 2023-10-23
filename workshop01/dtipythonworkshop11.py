@@ -1,7 +1,7 @@
 def InputInfo () : 
-    Name = input("ฃื่อผู้ใช้เบอร์โทรศัพท์ : ")
-    Number = int(input("เบอร์โทรศัพท์ : "))
-    Minute = int(input("จำนวนนาทีที่ใช้โทรศัพท์ : "))
+    Name = input("ป้อนฃื่อผู้ใช้เบอร์โทรศัพท์ : ")
+    Number = int(input("ป้อนเบอร์โทรศัพท์ : "))
+    Minute = int(input("ป้อนจำนวนนาทีที่ใช้โทรศัพท์ : "))
     return  Name,Number,Minute
 
 def calValue (Name,Number,Minute):

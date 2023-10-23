@@ -1,7 +1,7 @@
 def InputInfo () : 
-    HeadName = input("ชื่อหัวหน้ากรุ๊ปทัวร์ : ")
-    NumberPhone = int(input("เบอร์โทรศัพท์ติดต่อกลับของหัวหน้ากรุ๊ปทัวร์ : "))
-    Value = int(input("จำนวนคนที่จะไปทัวร์ : "))
+    HeadName = input("ป้อนชื่อหัวหน้ากรุ๊ปทัวร์ : ")
+    NumberPhone = int(input("ป้อนเบอร์โทรศัพท์ติดต่อกลับของหัวหน้ากรุ๊ปทัวร์ : "))
+    Value = int(input("ป้อนจำนวนคนที่จะไปทัวร์ : "))
     return HeadName,NumberPhone,Value 
 
 def calValue (HeadName,NumberPhone,Value):
